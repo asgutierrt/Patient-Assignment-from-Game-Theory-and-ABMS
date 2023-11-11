@@ -4,7 +4,7 @@ The `Game` class represents a simulation of a hospital game involving patients a
 
 ## Game description
 
-A team of nurses is responsible for attending to incoming patients throughout a workday. The timing of patient arrivals follows an exponential distribution, and their stay is uniformly sampled from ${1,2}$.
+A team of nurses is responsible for attending to incoming patients throughout a workday. The timing of patient arrivals follows an exponential distribution, and their stay is uniformly sampled from $\{1,2\}$.
 
 Upon a patient's arrival, each nurse must decide to either accept ($A$) the patient for treatment or reject ($R$) them. The nurses' decision-making order is determined by their experience levels, with higher experience granting greater decision priority (e.g., $E_1 > E_2 > E_3$).
 
